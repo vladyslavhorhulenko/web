@@ -1,0 +1,68 @@
+body{
+  background-color: lightgrey;
+  margin: 20px 20px 0px 20px;
+}
+a{
+  text-decoration: none;
+  color: green;
+}
+.author{
+  text-align: right;
+}
+.underline-b-span{
+  text-decoration: underline;
+  font-weight: 900;
+}
+hr{
+  height: 3px;
+  background: blue;
+  border: 0;
+  margin: 5px 0px 5px 0px;
+  width: 100%;
+}
+img{
+  float: left;
+  height: 200px;
+}
+h1{
+  text-align: center;
+  color: blue;
+}
+p{
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+p+p{
+  text-indent: 10px;
+  margin-top: 0px;
+}
+h2{
+  text-align: center;
+  font-size: 16px;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.description{
+  margin-left: 5%;
+}
+.text{
+  font-style: italic;
+  color: rgb(50, 100, 180);
+}
+.matches{
+  font-style: italic;
+  font-size: 20px;
+}
+.gallery{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.imgfilm{
+  width: 320px;
+  height: 240px;
+}
