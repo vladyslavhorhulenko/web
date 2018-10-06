@@ -1,10 +1,11 @@
 body{
   background-color: lightgrey;
-  margin: 20px 20px 0px 20px;
+  margin: 0px;
 }
 a{
   text-decoration: none;
   color: green;
+  font-style: italic;
 }
 .author{
   text-align: right;
@@ -33,7 +34,7 @@ p{
   margin-left: 20px;
 }
 p+p{
-  text-indent: 10px;
+  text-indent: 25px;
   margin-top: 0px;
 }
 h2{
@@ -65,4 +66,46 @@ h2{
 .imgfilm{
   width: 320px;
   height: 240px;
+}
+.main_book{
+  border-bottom: 3px solid lightblue;
+  width: 100%;
+  margin-bottom: 15px;
+  height: 300px;
+}
+.main_book_image{
+  float: left;
+  height: 250px;
+  width: 15%;
+  min-width: 160px;
+}
+.main_book_content{
+  float: left;
+  width: 85%;
+  height: 250px;
+  margin-top: 30px;
+}
+.main_book_image_img{
+  margin: 20px 0px 0px 20px;
+}
+.main_book_content_param{
+
+  height: 200px;
+  width: 40%;
+  float: left;
+}
+.main_book_content_desc{
+  text-align: justify;
+  font-style: italic;
+  margin-top: 100px;
+  margin-right: 50px;
+  height: 250px;
+  width: 75%;
+}
+.describe{
+  text-align: center;
+  font-weight: 700;
+}
+a:hover{
+  text-decoration: underline;
 }
